@@ -19,7 +19,12 @@ KNMT_CHUNKS = [
     "NZa Wijziging 2026: Wortelkanaalcodes zijn E13 (1 kanaal), E14 (2 kanalen), E16 (3 kanalen), E17 (4+ kanalen). Gebruik E17 voor molaren met 4+ kanalen.",
     "NZa Wijziging 2026: Rubberdamisolatie (cofferdam) heeft eigen code C022 (€15,00) — declareer dit apart naast de restauratie- of endodontiecode.",
     "NZa Wijziging 2026: Implantologie-tarieven stijgen 17,17%, gelijkgetrokken met algemene tandheelkunde.",
-    "KNMT Richtlijn: Bij wortelkanaalbehandeling molaren (4+ kanalen) gebruik E17. Bij premolaren met 2 kanalen gebruik E14. Bij voortanden gebruik E13.",
+    "KNMT Richtlijn Endodontie: Bij wortelkanaalbehandeling molaren (4+ kanalen) gebruik E17. Bij premolaren met 2 kanalen gebruik E14. Bij voortanden gebruik E13.",
+    "KNMT Richtlijn Endodontie röntgen: Bij endodontische behandeling zijn minimaal 3 röntgenfoto's geïndiceerd: (1) diagnostische opname pre-operatief, (2) werklengtebepaling tijdens behandeling, (3) eindopname post-operatief. Elke opname = 1x X10.",
+    "KNMT Richtlijn Endodontie begroting: Bij behandelkosten boven de €250 is de tandarts verplicht vooraf een begroting te verstrekken. Een endodontische behandeling van een molaar overschrijdt dit bedrag altijd.",
+    "KNMT Richtlijn Irreversibele pulpitis: Diagnose bij koude-gevoeligheid die langer dan 3 seconden aanhoudt na weghalen prikkel. Behandeling: wortelkanaalbehandeling of extractie. Urgentie: direct.",
+    "NZa Endodontie 2026: E17 omvat de volledige wortelkanaalbehandeling bij 4+ kanalen inclusief werklengtebepaling (apex locator). Werklengtebepaling heeft geen aparte NZa-code — valt onder de E-code.",
+    "NZa Endodontie 2026: Cofferdam (C022, €15,00) is een VERPLICHTE aparte code bij endodontische behandeling — rubberdamisolatie is een eigen prestatie naast E13/E14/E16/E17.",
 ]
 
 
