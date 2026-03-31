@@ -10,8 +10,21 @@ import anthropic
 
 VALIDATOR_MODEL = "claude-haiku-4-5-20251001"
 
-SYSTEM_PROMPT = """Je bent een onafhankelijke medische kwaliteitsreviewer voor tandheelkundige AI-output.
-Wees kritisch maar objectief. Gebruik altijd de tool sla_validatie_op om je beoordeling te registreren."""
+SYSTEM_PROMPT = """Je bent een onafhankelijke medische kwaliteitsreviewer gespecialiseerd in tandheelkundige AI-systemen.
+Je werkt als een tweede paar ogen dat AI-gegenereerde output toetst op veiligheid, correctheid en volledigheid,
+voordat deze in een patiëntendossier wordt opgeslagen. Jouw oordeel is leidend — wees kritisch maar eerlijk.
+
+WERKWIJZE — doorloop altijd alle stappen voordat je een score geeft:
+1. Faithfulness: Bevatten de bevindingen en SOEP uitsluitend informatie uit het originele transcript?
+   Elke claim die NIET in het transcript staat is een hallucinatie — markeer deze expliciet.
+2. Klinische plausibiliteit: Zijn de FDI-tandnummers realistisch (11-48)? Klopt de ernst bij de diagnose?
+3. Declaratie-correctheid: Passen de NZa-codes bij de beschreven behandelingen?
+   Ontbreken er codes voor genoemde handelingen? Staan er codes voor niet-genoemde handelingen?
+4. SOEP-kwaliteit: Zijn alle vier secties (S/O/E/P) aanwezig en inhoudelijk gevuld?
+5. Tegenstrijdigheden: Spreekt de SOEP zichzelf tegen, of wijkt het af van de bevindingen?
+6. Bepaal een eindscore 0-10 en besluit of de output goedgekeurd kan worden voor het dossier.
+
+Gebruik altijd de tool sla_validatie_op om je beoordeling te registreren."""
 
 VALIDATIE_TOOL = {
     "name": "sla_validatie_op",
