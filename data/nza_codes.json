@@ -107,6 +107,12 @@
     "categorie": "Vulling",
     "gebruik": "Gebruik bij plaatsen van cofferdam/rubberdam voor isolatie tijdens restauratie of endodontie. Dit is een aparte declaratiecode naast de restauratie- of endodontiecode."
   },
+  "E02": {
+    "omschrijving": "Uitgebreid wortelkanaalbehandeling consult",
+    "tarief": 40.82,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij uitgebreid consult specifiek voor endodontische behandeling, inclusief diagnostiek en behandelplanning."
+  },
   "E13": {
     "omschrijving": "Wortelkanaalbehandeling 1 kanaal (voortanden/hoektanden)",
     "tarief": 175.22,
@@ -127,15 +133,39 @@
   },
   "E17": {
     "omschrijving": "Wortelkanaalbehandeling 4+ kanalen (molaren)",
-    "tarief": 350.23,
+    "tarief": 244.89,
     "categorie": "Endodontie",
     "gebruik": "Gebruik bij wortelkanaalbehandeling van molaren met 4 of meer kanalen (16, 17, 26, 27, 36, 37, 46, 47). Indicatie: pulpanecrose of irreversibele pulpitis."
+  },
+  "E04": {
+    "omschrijving": "Toeslag roterende nikkel-titanium (NiTi) instrumentarium",
+    "tarief": 47.90,
+    "categorie": "Endodontie",
+    "gebruik": "Declareer als toeslag naast E13/E14/E16/E17 wanneer roterende NiTi-instrumenten zijn gebruikt bij de wortelkanaalbehandeling."
+  },
+  "E85": {
+    "omschrijving": "Elektronische lengtebepaling (apex locator)",
+    "tarief": 14.58,
+    "categorie": "Endodontie",
+    "gebruik": "Declareer apart naast de E-behandelcode wanneer werklengte elektronisch is bepaald met een apex locator. Heeft een eigen NZa-code."
+  },
+  "E86": {
+    "omschrijving": "Aanbrengen rubberdam (rubberdamisolatie bij endodontie)",
+    "tarief": 11.66,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij endodontische behandeling. E86 is de correcte code voor rubberdam bij endodontie. Declareer apart naast E13/E14/E16/E17."
+  },
+  "E87": {
+    "omschrijving": "Gebruik operatiemicroscoop bij wortelkanaalbehandeling",
+    "tarief": 78.71,
+    "categorie": "Endodontie",
+    "gebruik": "Declareer als toeslag naast E13/E14/E16/E17 wanneer een operatiemicroscoop is gebruikt. Alleen declareren als microscoop daadwerkelijk is ingezet."
   },
   "E60": {
     "omschrijving": "Open trepanatie (spoedbehandeling pulpa)",
     "tarief": 46.38,
     "categorie": "Endodontie",
-    "gebruik": "Gebruik bij spoedbehandeling waarbij pulpa geopend wordt voor draingage of pijnverlichting."
+    "gebruik": "Gebruik bij spoedbehandeling waarbij pulpa geopend wordt voor drainage of pijnverlichting."
   },
   "X10": {
     "omschrijving": "Kleine intra-orale röntgenfoto (periapicaal of bitewing)",

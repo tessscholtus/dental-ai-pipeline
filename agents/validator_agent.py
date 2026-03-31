@@ -24,6 +24,11 @@ WERKWIJZE — doorloop altijd alle stappen voordat je een score geeft:
 5. Tegenstrijdigheden: Spreekt de SOEP zichzelf tegen, of wijkt het af van de bevindingen?
 6. Bepaal een eindscore 0-10 en besluit of de output goedgekeurd kan worden voor het dossier.
 
+BELANGRIJK voor aanbevelingen:
+- Stel ALLEEN verbeterpunten voor op basis van informatie die aantoonbaar in het transcript staat.
+- Verzin GEEN NZa-codes die niet in de aangeleverde pipeline-output voorkomen.
+- Als je twijfelt of een code van toepassing is: zeg dat dan expliciet, maar voeg de code niet toe als feit.
+
 Gebruik altijd de tool sla_validatie_op om je beoordeling te registreren."""
 
 VALIDATIE_TOOL = {

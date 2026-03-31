@@ -12,7 +12,9 @@ from knowledge.rag_engine import get_rag_engine
 from pathlib import Path
 
 _NZA_PATH = Path(__file__).parent.parent / "data" / "nza_codes.json"
+_BEGROTINGEN_PATH = Path(__file__).parent.parent / "data" / "standaard_begrotingen.json"
 NZA_DB: dict = json.loads(_NZA_PATH.read_text()) if _NZA_PATH.exists() else {}
+_BEGROTINGEN_DB: dict = json.loads(_BEGROTINGEN_PATH.read_text()) if _BEGROTINGEN_PATH.exists() else {}
 
 COMBINATIEREGELS_DB = [
     (["C002", "C003"], "C002 en C003 niet combineerbaar in dezelfde zitting"),
@@ -75,12 +77,31 @@ def zoek_rag_context(query: str) -> dict:
     return get_rag_engine().zoek(query)
 
 
+def zoek_standaard_begroting(procedure_type: str) -> dict:
+    """
+    Haal een standaard codeset op voor een bekende procedure.
+    Gebruik dit als startpunt — pas aan op basis van wat het transcript vermeldt.
+    Beschikbare types: endo_molaar_4_kanalen, endo_molaar_3_kanalen,
+    endo_premolaar_2_kanalen, restauratie_composiet_2vlak, extractie_eenvoudig.
+    """
+    if procedure_type in _BEGROTINGEN_DB:
+        return _BEGROTINGEN_DB[procedure_type]
+    # Fuzzy match op trefwoord
+    t = procedure_type.lower()
+    for key, val in _BEGROTINGEN_DB.items():
+        if any(w in key for w in t.split("_")):
+            return val
+    return {"fout": f"Geen standaard begroting gevonden voor '{procedure_type}'",
+            "beschikbaar": list(_BEGROTINGEN_DB.keys())}
+
+
 TOOL_EXECUTORS = {
     "zoek_codes_op_trefwoord": zoek_codes_op_trefwoord,
     "zoek_nza_code": zoek_nza_code,
     "zoek_restauratiecode": zoek_restauratiecode,
     "check_combinatieregels": check_combinatieregels,
     "zoek_rag_context": zoek_rag_context,
+    "zoek_standaard_begroting": zoek_standaard_begroting,
 }
 
 TOOLS_SCHEMA = [
@@ -136,6 +157,21 @@ TOOLS_SCHEMA = [
             "required": ["query"],
         },
     },
+    {
+        "name": "zoek_standaard_begroting",
+        "description": (
+            "Haal de standaard codeset op voor een bekende procedure als startpunt voor de begroting. "
+            "Gebruik dit EERST bij endodontie, restauraties of extracties. "
+            "Pas de codeset daarna aan op basis van wat het transcript vermeldt (wel/geen microscoop, NiTi, etc.). "
+            "Types: endo_molaar_4_kanalen, endo_molaar_3_kanalen, endo_premolaar_2_kanalen, "
+            "restauratie_composiet_2vlak, extractie_eenvoudig."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {"procedure_type": {"type": "string"}},
+            "required": ["procedure_type"],
+        },
+    },
 ]
 
 SYSTEM_PROMPT = """Je bent een gespecialiseerde Nederlandse tandheelkundige declaratie-expert met diepgaande kennis
@@ -160,7 +196,9 @@ VASTE DOMEINREGELS (strikt toepassen, NOOIT afwijken):
 - CONSULTATIECODES: C002 = routinecontrole (geen klacht), C003 = probleemgericht consult (klacht/pijn).
 - BITEWING: Elke bitewing = 1x X10 (€21,00). Beiderzijds = 2x X10. Eénzijdig = 1x X10.
   X21 is UITSLUITEND panoramische opname (OPT) — NOOIT voor bitewings.
-- COFFERDAM: C022 (€15,00) — declareer alleen als transcript cofferdam/rubberdam/isolatie vermeldt.
+- RUBBERDAM: Bij endodontie gebruik E86 (€11,66) voor rubberdamisolatie — NIET C022.
+  Bij restauraties (composiet) gebruik C022 (€15,00) voor rubberdamisolatie.
+  Declareer alleen als transcript rubberdam/cofferdam/isolatie vermeldt.
 - WORTELKANAAL: E13 (1 kanaal), E14 (2 kanalen), E16 (3 kanalen), E17 (4+ kanalen/molaren).
 - COMPOSIET: 1 vlak=V91, 2 vlakken=V92, 3 vlakken=V93, 4+=V94.
 - HALLUCINATE NIET: gebruik uitsluitend codes die de tools teruggeven. Verzin geen codes.
