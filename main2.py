@@ -49,7 +49,7 @@ def fout(msg): print(f"  {ROOD}[FOUT]{RESET} {msg}")
 
 def druk_begroting_af(gecodeerd: list, nza_db: dict):
     """Gestructureerde begroting per behandelbezoek."""
-    sectie("BEGROTING — Endodontische behandeling element 17")
+    sectie("BEGROTING — Endodontische behandeling element 16")
     print(f"  {'─' * 66}")
 
     # Splits codes in diagnostiek (huidig bezoek) vs behandeling (vervolgbezoek)
