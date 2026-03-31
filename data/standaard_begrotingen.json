@@ -3,55 +3,58 @@
     "omschrijving": "Wortelkanaalbehandeling molaar 4+ kanalen (bijv. element 16/17/26/27/36/37/46/47)",
     "indicatie": "Irreversibele pulpitis of pulpanecrose bij molaar met 4 of meer kanalen",
     "codes": [
-      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 40.82,  "verplicht": true},
-      {"code": "E17",  "omschrijving": "Wortelkanaalbehandeling 4+ kanalen",             "tarief": 244.89, "verplicht": true},
-      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",    "tarief": 14.58,  "verplicht": true},
-      {"code": "E86",  "omschrijving": "Aanbrengen rubberdam",                           "tarief": 11.66,  "verplicht": true},
-      {"code": "E04",  "omschrijving": "Toeslag NiTi roterende instrumenten",            "tarief": 47.90,  "verplicht": false, "conditie": "alleen als NiTi-instrumenten gebruikt"},
-      {"code": "E87",  "omschrijving": "Gebruik operatiemicroscoop",                     "tarief": 78.71,  "verplicht": false, "conditie": "alleen als microscoop gebruikt"},
-      {"code": "A10",  "omschrijving": "Geleidings-/infiltratieanesthesie",              "tarief": 18.75,  "verplicht": true},
+      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 52.51,  "verplicht": true},
+      {"code": "E17",  "omschrijving": "Wortelkanaalbehandeling 4+ kanalen",             "tarief": 315.07, "verplicht": true},
+      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",    "tarief": 18.75,  "verplicht": true},
+      {"code": "C022", "omschrijving": "Droogleggen elementen (rubberdam)",               "tarief": 15.00,  "verplicht": true},
+      {"code": "E04",  "omschrijving": "Toeslag NiTi roterende instrumenten",            "tarief": 59.25,  "verplicht": true, "conditie": "standaard bij moderne endodontie"},
+      {"code": "E86",  "omschrijving": "Operatiemicroscoop bij wortelkanaalbehandeling", "tarief": 101.27, "verplicht": false, "conditie": "alleen als microscoop expliciet gebruikt"},
+      {"code": "A10",  "omschrijving": "Geleidings-/infiltratie-/intraligamentaire verdoving", "tarief": 18.75, "verplicht": true},
       {"code": "X10",  "omschrijving": "Röntgenfoto klein (3x: pre-op, werklengte, eindopname)", "tarief": 21.00, "aantal": 3, "verplicht": true},
-      {"code": "V94",  "omschrijving": "Eindvulling meervlaks composiet (occlusaal)",    "tarief": 93.29,  "verplicht": false, "conditie": "alleen als eindvulling in zelfde zitting"}
+      {"code": "V94",  "omschrijving": "Eindvulling meervlaks composiet (occlusaal)",    "tarief": 120.03, "verplicht": false, "conditie": "alleen als eindvulling in zelfde zitting"}
     ],
-    "totaal_indicatief": 571.80,
-    "toelichting": "Totaal exclusief microscoop en NiTi. Met microscoop +€78,71. Met NiTi +€47,90. Definitieve restauratie (kroon/opbouw) wordt apart begroot."
+    "totaal_indicatief_zonder_microscoop": 542.33,
+    "totaal_indicatief_met_microscoop": 643.60,
+    "toelichting": "Totaal excl. microscoop: €542,33. Met microscoop: €643,60. Excl. eindvulling/restauratie."
   },
   "endo_molaar_3_kanalen": {
-    "omschrijving": "Wortelkanaalbehandeling molaar 3 kanalen (bijv. element 14/15/24/25 of kleine molaar)",
+    "omschrijving": "Wortelkanaalbehandeling molaar 3 kanalen",
     "indicatie": "Irreversibele pulpitis of pulpanecrose bij element met 3 kanalen",
     "codes": [
-      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 40.82,  "verplicht": true},
-      {"code": "E16",  "omschrijving": "Wortelkanaalbehandeling 3 kanalen",             "tarief": 293.10, "verplicht": true},
-      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",   "tarief": 14.58,  "verplicht": true},
-      {"code": "E86",  "omschrijving": "Aanbrengen rubberdam",                          "tarief": 11.66,  "verplicht": true},
-      {"code": "A10",  "omschrijving": "Geleidings-/infiltratieanesthesie",             "tarief": 18.75,  "verplicht": true},
+      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 52.51,  "verplicht": true},
+      {"code": "E16",  "omschrijving": "Wortelkanaalbehandeling 3 kanalen",             "tarief": 255.06, "verplicht": true},
+      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",   "tarief": 18.75,  "verplicht": true},
+      {"code": "C022", "omschrijving": "Droogleggen elementen (rubberdam)",              "tarief": 15.00,  "verplicht": true},
+      {"code": "E04",  "omschrijving": "Toeslag NiTi roterende instrumenten",           "tarief": 59.25,  "verplicht": true},
+      {"code": "A10",  "omschrijving": "Geleidings-/infiltratie-/intraligamentaire verdoving", "tarief": 18.75, "verplicht": true},
       {"code": "X10",  "omschrijving": "Röntgenfoto klein (3x)",                        "tarief": 21.00,  "aantal": 3, "verplicht": true}
     ],
-    "totaal_indicatief": 441.91,
+    "totaal_indicatief": 482.32,
     "toelichting": "Definitieve restauratie apart begroot."
   },
   "endo_premolaar_2_kanalen": {
-    "omschrijving": "Wortelkanaalbehandeling premolaar 2 kanalen (bijv. element 14/15/24/25)",
+    "omschrijving": "Wortelkanaalbehandeling premolaar 2 kanalen",
     "indicatie": "Irreversibele pulpitis of pulpanecrose bij premolaar met 2 kanalen",
     "codes": [
-      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 40.82,  "verplicht": true},
-      {"code": "E14",  "omschrijving": "Wortelkanaalbehandeling 2 kanalen",             "tarief": 221.30, "verplicht": true},
-      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",   "tarief": 14.58,  "verplicht": true},
-      {"code": "E86",  "omschrijving": "Aanbrengen rubberdam",                          "tarief": 11.66,  "verplicht": true},
-      {"code": "A15",  "omschrijving": "Infiltratieanesthesie",                         "tarief": 18.75,  "verplicht": true},
+      {"code": "E02",  "omschrijving": "Uitgebreid WKB consult",                        "tarief": 52.51,  "verplicht": true},
+      {"code": "E14",  "omschrijving": "Wortelkanaalbehandeling 2 kanalen",             "tarief": 195.04, "verplicht": true},
+      {"code": "E85",  "omschrijving": "Elektronische lengtebepaling (apex locator)",   "tarief": 18.75,  "verplicht": true},
+      {"code": "C022", "omschrijving": "Droogleggen elementen (rubberdam)",              "tarief": 15.00,  "verplicht": true},
+      {"code": "E04",  "omschrijving": "Toeslag NiTi roterende instrumenten",           "tarief": 59.25,  "verplicht": true},
+      {"code": "A10",  "omschrijving": "Geleidings-/infiltratie-/intraligamentaire verdoving", "tarief": 18.75, "verplicht": true},
       {"code": "X10",  "omschrijving": "Röntgenfoto klein (3x)",                        "tarief": 21.00,  "aantal": 3, "verplicht": true}
     ],
-    "totaal_indicatief": 369.11,
+    "totaal_indicatief": 422.30,
     "toelichting": "Definitieve restauratie apart begroot."
   },
   "restauratie_composiet_2vlak": {
-    "omschrijving": "Tweevlaks composietrestauratie (bijv. MO of DO op premolaar of molaar)",
+    "omschrijving": "Tweevlaks composietrestauratie (bijv. MO of DO)",
     "indicatie": "Cariës of defecte vulling met 2 aangedane vlakken",
     "codes": [
-      {"code": "C003", "omschrijving": "Probleemgericht consult",                       "tarief": 28.51,  "verplicht": true},
-      {"code": "X10",  "omschrijving": "Röntgenfoto klein (diagnostisch)",              "tarief": 21.00,  "aantal": 1, "verplicht": false, "conditie": "alleen als röntgen gemaakt"},
-      {"code": "A15",  "omschrijving": "Infiltratieanesthesie",                         "tarief": 18.75,  "verplicht": false, "conditie": "alleen als verdoving gegeven"},
-      {"code": "V92",  "omschrijving": "Tweevlaks composietrestauratie",                "tarief": 78.77,  "verplicht": true}
+      {"code": "C003", "omschrijving": "Overig consult (probleemgericht)",               "tarief": 28.51,  "verplicht": true},
+      {"code": "X10",  "omschrijving": "Röntgenfoto klein (diagnostisch)",               "tarief": 21.00,  "verplicht": false, "conditie": "alleen als röntgen gemaakt"},
+      {"code": "A10",  "omschrijving": "Geleidings-/infiltratie-/intraligamentaire verdoving", "tarief": 18.75, "verplicht": false, "conditie": "alleen als verdoving gegeven"},
+      {"code": "V92",  "omschrijving": "Tweevlaksvulling composiet",                    "tarief": 78.77,  "verplicht": true}
     ],
     "totaal_indicatief": 147.03,
     "toelichting": "Exclusief röntgen en verdoving indien niet uitgevoerd."
@@ -60,12 +63,12 @@
     "omschrijving": "Eenvoudige extractie van geërupteerd element",
     "indicatie": "Niet-herstelbaar element, patiënt kiest voor extractie",
     "codes": [
-      {"code": "C003", "omschrijving": "Probleemgericht consult",                       "tarief": 28.51,  "verplicht": true},
-      {"code": "X10",  "omschrijving": "Röntgenfoto klein (pre-extractie)",             "tarief": 21.00,  "aantal": 1, "verplicht": false},
-      {"code": "A10",  "omschrijving": "Geleidings-/infiltratieanesthesie",             "tarief": 18.75,  "verplicht": true},
-      {"code": "H11",  "omschrijving": "Extractie element (eenvoudig)",                 "tarief": 38.86,  "verplicht": true}
+      {"code": "C003", "omschrijving": "Overig consult (probleemgericht)",               "tarief": 28.51,  "verplicht": true},
+      {"code": "X10",  "omschrijving": "Röntgenfoto klein (pre-extractie)",              "tarief": 21.00,  "verplicht": false},
+      {"code": "A10",  "omschrijving": "Geleidings-/infiltratie-/intraligamentaire verdoving", "tarief": 18.75, "verplicht": true},
+      {"code": "H11",  "omschrijving": "Trekken tand/kies (eerste element)",             "tarief": 56.26,  "verplicht": true}
     ],
-    "totaal_indicatief": 107.12,
+    "totaal_indicatief": 124.52,
     "toelichting": ""
   }
 }

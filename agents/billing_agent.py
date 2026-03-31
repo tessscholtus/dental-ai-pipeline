@@ -196,13 +196,15 @@ VASTE DOMEINREGELS (strikt toepassen, NOOIT afwijken):
 - CONSULTATIECODES: C002 = routinecontrole (geen klacht), C003 = probleemgericht consult (klacht/pijn).
 - BITEWING: Elke bitewing = 1x X10 (€21,00). Beiderzijds = 2x X10. Eénzijdig = 1x X10.
   X21 is UITSLUITEND panoramische opname (OPT) — NOOIT voor bitewings.
-- RUBBERDAM: Bij endodontie gebruik E86 (€11,66) voor rubberdamisolatie — NIET C022.
-  Bij restauraties (composiet) gebruik C022 (€15,00) voor rubberdamisolatie.
-  Declareer alleen als transcript rubberdam/cofferdam/isolatie vermeldt.
+- RUBBERDAM/COFFERDAM: Gebruik altijd C022 (€15,00) voor droogleggen/rubberdam, zowel bij
+  restauraties als bij endodontie. Declareer alleen als transcript rubberdam/cofferdam vermeldt.
+- VERDOVING: A10 (€18,75) dekt ALLE injectieverdovingen — geleidings-, infiltratie- én
+  intraligamentaire. Gebruik A10 voor zowel boven- als onderkaak. A15 (€9,75) is uitsluitend
+  voor oppervlakte/topicale verdoving (gel/spray) — NIET voor injecties.
 - WORTELKANAAL: E13 (1 kanaal), E14 (2 kanalen), E16 (3 kanalen), E17 (4+ kanalen/molaren).
-  Bij elke wortelkanaalbehandeling altijd ook declareren: E85 (apex locator), E86 (rubberdam),
-  E04 (NiTi roterende instrumenten — standaard gebruikt bij alle endodontische behandelingen).
-  E87 (microscoop) alleen declareren als transcript microscoop expliciet vermeldt.
+  Bij elke wortelkanaalbehandeling altijd ook declareren: E85 (apex locator, €18,75),
+  C022 (rubberdam, €15,00), E04 (NiTi, €59,25 — standaard bij moderne endodontie).
+  E86 (operatiemicroscoop, €101,27) alleen declareren als transcript microscoop expliciet vermeldt.
 - COMPOSIET: 1 vlak=V91, 2 vlakken=V92, 3 vlakken=V93, 4+=V94.
 - HALLUCINATE NIET: gebruik uitsluitend codes die de tools teruggeven. Verzin geen codes.
 
