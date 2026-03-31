@@ -16,7 +16,7 @@ TRANSCRIPT_ENDO = """
 [PATIENT]: Wat betekent dat precies? Moet de tand eruit?
 [TANDARTS]: Nee, niet per se. U heeft twee opties: een wortelkanaalbehandeling waarbij we de zenuw verwijderen en de kanalen afdichten, of een extractie. Gezien de staat van de tand adviseer ik de wortelkanaalbehandeling. Element 17 is een tweede molaar — waardevol voor uw kauwfunctie.
 [PATIENT]: En hoe werkt zo'n wortelkanaalbehandeling dan?
-[TANDARTS]: We verdoven de tand volledig, plaatsen een rubberdam voor isolatie, openen de tand, verwijderen de zenuw uit alle kanalen — element 17 heeft er doorgaans vier — meten de lengte van elk kanaal met een elektronisch apparaatje, reinigen en vormen de kanalen, en sluiten ze af met een vulmateriaal. Dat doen we in twee à drie bezoeken.
+[TANDARTS]: We verdoven de tand volledig, plaatsen een rubberdam voor isolatie, openen de tand, verwijderen de zenuw uit alle kanalen — element 17 heeft er doorgaans vier — meten de lengte van elk kanaal met een elektronisch apparaatje, reinigen en vormen de kanalen met roterende NiTi-instrumenten, en sluiten ze af met een vulmateriaal. We werken daarbij onder een operatiemicroscoop voor maximale precisie. Dat doen we in twee à drie bezoeken.
 [PATIENT]: Oké. En wat kost dat?
 [TANDARTS]: Dat is een goede vraag. De behandeling overschrijdt de grens waarbij ik verplicht ben u vooraf een schriftelijke begroting te geven. Die maak ik voor u op. Ruw geschat: het consult en de röntgenfoto van vandaag, de verdoving, de rubberdam, de wortelkanaalbehandeling zelf — dat zijn de grootste posten. Daarna volgt nog een definitieve restauratie van de tand.
 [PATIENT]: Kunt u me de begroting toesturen? Dan beslis ik of ik morgen al kan komen beginnen.

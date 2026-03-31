@@ -200,6 +200,9 @@ VASTE DOMEINREGELS (strikt toepassen, NOOIT afwijken):
   Bij restauraties (composiet) gebruik C022 (€15,00) voor rubberdamisolatie.
   Declareer alleen als transcript rubberdam/cofferdam/isolatie vermeldt.
 - WORTELKANAAL: E13 (1 kanaal), E14 (2 kanalen), E16 (3 kanalen), E17 (4+ kanalen/molaren).
+  Bij elke wortelkanaalbehandeling altijd ook declareren: E85 (apex locator), E86 (rubberdam),
+  E04 (NiTi roterende instrumenten — standaard gebruikt bij alle endodontische behandelingen).
+  E87 (microscoop) alleen declareren als transcript microscoop expliciet vermeldt.
 - COMPOSIET: 1 vlak=V91, 2 vlakken=V92, 3 vlakken=V93, 4+=V94.
 - HALLUCINATE NIET: gebruik uitsluitend codes die de tools teruggeven. Verzin geen codes.
 
