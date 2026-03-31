@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "scenario": "restauratie",
+    "beschrijving": "Tweevlaks MO composietrestauratie element 36 met infiltratieverdoving en bitewing links.",
+    "transcript": "\n[TANDARTS]: Goedemorgen mevrouw Bakker, hoe gaat het met u?\n[PATIENT]: Goedemorgen dokter. Goed hoor, maar ik heb wel last van mijn kies linksonder. Vooral bij kauwen en bij koude dingen.\n[TANDARTS]: Vervelend. Laten we even kijken. Kunt u aanwijzen waar?\n[PATIENT]: Hier, deze grote kies linksonder achteraan.\n[TANDARTS]: Oké, dat is element 36. Ik ga even kijken en een foto maken.\n[TANDARTS]: Ik zie een grote caviteit mesiaal-occlusaal op element 36. De oude vulling is deels uitgevallen.\n[ASSISTENT]: Zal ik een bitewing maken?\n[TANDARTS]: Ja graag, bitewing links.\n[TANDARTS]: Op de röntgenfoto is de cariës diep maar reikt niet tot de pulpa. Geen periapicale afwijking. We kunnen dit behandelen met een nieuwe restauratie.\n[TANDARTS]: Ik ga infiltratieverdoving geven linksonder. Dan verwijder ik de oude vulling en cariës en plaats een tweevlaks composiet mesiaal-occlusaal.\n[PATIENT]: Oké, en doet dat pijn?\n[TANDARTS]: Nee, we verdoven goed. U voelt niets.\n[PATIENT]: Prima, laten we dat doen.\n[TANDARTS]: De restauratie is geplaatst, occlusie klopt. Heeft u nog vragen?\n[PATIENT]: Nee hoor, dank u wel.\n",
+    "verwachte_elementen": [36],
+    "verwachte_nza_codes": ["C003", "X10", "A15", "V92"],
+    "verwachte_bevindingen": [
+      {
+        "element": 36,
+        "diagnose": "Cariës mesiaal-occlusaal, oude vulling uitgevallen",
+        "ernst": "matig",
+        "urgentie": "direct"
+      }
+    ]
+  }
+]

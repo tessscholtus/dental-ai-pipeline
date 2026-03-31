@@ -1,0 +1,200 @@
+{
+  "C002": {
+    "omschrijving": "Periodiek mondonderzoek",
+    "tarief": 28.51,
+    "categorie": "Consultatie",
+    "gebruik": "Gebruik bij routinecontrole zonder specifieke klacht (halfjaarlijks of jaarlijks). NIET combineerbaar met C003 in dezelfde zitting."
+  },
+  "C003": {
+    "omschrijving": "Niet-periodiek mondonderzoek (probleemgericht consult)",
+    "tarief": 28.51,
+    "categorie": "Consultatie",
+    "gebruik": "Gebruik bij consult met specifieke klacht of probleem (pijn, breuk, zwelling). NIET combineerbaar met C002 in dezelfde zitting."
+  },
+  "C029": {
+    "omschrijving": "Studiemodellen (per kaak)",
+    "tarief": 52.24,
+    "categorie": "Consultatie",
+    "gebruik": "Gebruik bij vervaardiging studiemodellen voor behandelplanning."
+  },
+  "M01": {
+    "omschrijving": "Fluorideapplicatie per kaak",
+    "tarief": 13.43,
+    "categorie": "Preventief",
+    "gebruik": "Fluoride applicatie per kaak. Maximaal 2x per zitting (boven + onderkaak)."
+  },
+  "M02": {
+    "omschrijving": "Mondhygiëne-instructie",
+    "tarief": 25.69,
+    "categorie": "Preventief",
+    "gebruik": "Poetsinstructie en mondhygiëne-advies. NIET combineerbaar met M03 in dezelfde zitting."
+  },
+  "M03": {
+    "omschrijving": "Gebitsreiniging (professioneel)",
+    "tarief": 37.68,
+    "categorie": "Preventief",
+    "gebruik": "Professionele tandsteen- en plaqueverwijdering. NIET combineerbaar met M02 in dezelfde zitting."
+  },
+  "M10": {
+    "omschrijving": "Parodontale screening (DPSI)",
+    "tarief": 13.43,
+    "categorie": "Preventief",
+    "gebruik": "Gebruik bij parodontale screening met de Dutch Periodontal Screening Index."
+  },
+  "A10": {
+    "omschrijving": "Geleidingsanesthesie (mandibulaire blokkade)",
+    "tarief": 18.75,
+    "categorie": "Verdoving",
+    "gebruik": "Gebruik voor onderkaak molaren en premolaren. Maximaal 1 verdovingscode per kaakhelft per zitting. NIET combineerbaar met A15 per kaakhelft."
+  },
+  "A15": {
+    "omschrijving": "Infiltratieanesthesie",
+    "tarief": 18.75,
+    "categorie": "Verdoving",
+    "gebruik": "Gebruik voor bovenkaak elementen en onderkaak voortanden. Maximaal 1 verdovingscode per kaakhelft per zitting. NIET combineerbaar met A10 per kaakhelft."
+  },
+  "A20": {
+    "omschrijving": "Oppervlakte-anesthesie",
+    "tarief": 6.77,
+    "categorie": "Verdoving",
+    "gebruik": "Gebruik bij oppervlakkige verdoving (bijv. voor injectie of kleine ingreep)."
+  },
+  "V91": {
+    "omschrijving": "Eénvlaks composietrestauratie",
+    "tarief": 60.01,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij eénvlaks (1 vlak) composietvulling. NIET combineerbaar met V92 of V93 voor hetzelfde element."
+  },
+  "V92": {
+    "omschrijving": "Tweevlaks composietrestauratie (bijv. MO of DO)",
+    "tarief": 78.77,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij tweevlaks (2 vlakken) composietvulling, bijv. mesiaal-occlusaal (MO) of disto-occlusaal (DO). NIET combineerbaar met V91 of V93 voor hetzelfde element."
+  },
+  "V93": {
+    "omschrijving": "Drievlaks composietrestauratie (bijv. MOD)",
+    "tarief": 93.77,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij drievlaks (3 vlakken) composietvulling, bijv. mesiaal-occlusaal-distaal (MOD). NIET combineerbaar met V91 of V92 voor hetzelfde element."
+  },
+  "V94": {
+    "omschrijving": "Viervlaks of meer composietrestauratie",
+    "tarief": 120.03,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij vier of meer vlakken composietvulling. NIET combineerbaar met V91, V92 of V93 voor hetzelfde element."
+  },
+  "V30": {
+    "omschrijving": "Directe restauratie esthetische opbouw (frontelement)",
+    "tarief": 89.06,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij esthetische opbouw van frontelementen (11-13, 21-23, 31-33, 41-43)."
+  },
+  "V70": {
+    "omschrijving": "Indirecte restauratie (inlay/onlay)",
+    "tarief": 237.67,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij indirecte restauraties (inlay of onlay) vervaardigd buiten de mond."
+  },
+  "V80": {
+    "omschrijving": "Kroon per element",
+    "tarief": 119.12,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij vervaardiging van een kroon per tandelement."
+  },
+  "C022": {
+    "omschrijving": "Rubberdamisolatie (cofferdam)",
+    "tarief": 15.00,
+    "categorie": "Vulling",
+    "gebruik": "Gebruik bij plaatsen van cofferdam/rubberdam voor isolatie tijdens restauratie of endodontie. Dit is een aparte declaratiecode naast de restauratie- of endodontiecode."
+  },
+  "E13": {
+    "omschrijving": "Wortelkanaalbehandeling 1 kanaal (voortanden/hoektanden)",
+    "tarief": 175.22,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij wortelkanaalbehandeling van éénkanaalselementen: voortanden (11-13, 21-23, 31-33, 41-43) en hoektanden. Indicatie: pulpanecrose of irreversibele pulpitis."
+  },
+  "E14": {
+    "omschrijving": "Wortelkanaalbehandeling 2 kanalen (premolaren)",
+    "tarief": 221.30,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij wortelkanaalbehandeling van tweekanaals-premolaren (14, 15, 24, 25). Indicatie: pulpanecrose of irreversibele pulpitis."
+  },
+  "E16": {
+    "omschrijving": "Wortelkanaalbehandeling 3 kanalen (premolaren met 3 kanalen / kleine molaren)",
+    "tarief": 293.10,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij 3 wortelkanalen. Indicatie: pulpanecrose of irreversibele pulpitis."
+  },
+  "E17": {
+    "omschrijving": "Wortelkanaalbehandeling 4+ kanalen (molaren)",
+    "tarief": 350.23,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij wortelkanaalbehandeling van molaren met 4 of meer kanalen (16, 17, 26, 27, 36, 37, 46, 47). Indicatie: pulpanecrose of irreversibele pulpitis."
+  },
+  "E60": {
+    "omschrijving": "Open trepanatie (spoedbehandeling pulpa)",
+    "tarief": 46.38,
+    "categorie": "Endodontie",
+    "gebruik": "Gebruik bij spoedbehandeling waarbij pulpa geopend wordt voor draingage of pijnverlichting."
+  },
+  "X10": {
+    "omschrijving": "Kleine intra-orale röntgenfoto (periapicaal of bitewing)",
+    "tarief": 21.00,
+    "categorie": "Radiologie",
+    "gebruik": "Gebruik per individuele kleine röntgenfoto. Standaard bitewings (bij controle of restauratie) worden gefactureerd als meerdere losse X10 codes — bijv. bitewing links én rechts = 2x X10. NOOIT X21 voor bitewings gebruiken."
+  },
+  "X21": {
+    "omschrijving": "Panoramische röntgenopname (OPT/orthopantomogram)",
+    "tarief": 90.02,
+    "categorie": "Radiologie",
+    "gebruik": "Gebruik UITSLUITEND bij panoramische opname van het gehele gebit/kaak (OPT). Indicaties: verstandskiezen, kaakafwijkingen, orthodontie planning, uitgebreide diagnostiek. NOOIT gebruiken voor gewone bitewings of periapicale foto's."
+  },
+  "X22": {
+    "omschrijving": "Laterale schedelfoto (kefalometrische opname)",
+    "tarief": 55.30,
+    "categorie": "Radiologie",
+    "gebruik": "Gebruik bij kefalometrische opname voor orthodontische behandelplanning."
+  },
+  "H11": {
+    "omschrijving": "Extractie element (eenvoudig)",
+    "tarief": 38.86,
+    "categorie": "Chirurgie",
+    "gebruik": "Gebruik bij eenvoudige tandextractie van geërupteerde, losse of fractuur-tanden."
+  },
+  "H16": {
+    "omschrijving": "Chirurgische verwijdering element (geïmpacteerd)",
+    "tarief": 96.30,
+    "categorie": "Chirurgie",
+    "gebruik": "Gebruik bij chirurgische verwijdering van geïmpacteerde elementen (bijv. verstandskiezen), elementen met gespleten wortels, of andere chirurgisch complexe extracties."
+  },
+  "H35": {
+    "omschrijving": "Wondtoilet na extractie",
+    "tarief": 38.86,
+    "categorie": "Chirurgie",
+    "gebruik": "Gebruik bij behandeling van alveolitis (droog socket) of wondtoilet na extractie."
+  },
+  "P01": {
+    "omschrijving": "Reparatie volledige prothese",
+    "tarief": 55.48,
+    "categorie": "Prothetiek",
+    "gebruik": "Gebruik bij reparatie van een bestaande volledige prothese."
+  },
+  "P10": {
+    "omschrijving": "Opvullen/rebasing prothese",
+    "tarief": 82.34,
+    "categorie": "Prothetiek",
+    "gebruik": "Gebruik bij opvullen (rebasing) van een bestaande prothese voor betere pasvorm."
+  },
+  "P30": {
+    "omschrijving": "Volledig kunstgebit bovenkaak",
+    "tarief": 345.87,
+    "categorie": "Prothetiek",
+    "gebruik": "Gebruik bij vervaardiging van een volledig kunstgebit voor de bovenkaak."
+  },
+  "P34": {
+    "omschrijving": "Volledig kunstgebit onderkaak",
+    "tarief": 345.87,
+    "categorie": "Prothetiek",
+    "gebruik": "Gebruik bij vervaardiging van een volledig kunstgebit voor de onderkaak."
+  }
+}
